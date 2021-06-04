@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../bardstownsbest/imgs/clouds.jpg);
+    font-family: poppins;
+    /* -webkit-background-size: cover; */
+    background-position: center center;
+    background-size:contain;
+    /* background-position: center center; */
+    
+}
+
+.nav ul{
+list-style: none;
+display: --webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-weight: bold;
+    transition: all .5s ease;
+}
+
+.header{
+    background: deepskyblue;
+    overflow: hidden;
+    }
+
+    .nav{
+        display:flex;
+        align-items: center;
+        margin: auto;
+    }
+.nav img{
+    width:120px;
+    height:auto;
+}
+.nav ul li a:hover{
+    color: #000;
+    background: #fff;
+}
+
+/* .main-nav{
+    display: flex;
+    color:#1A1A1D;
+    background-color:#5680E9;
+    text-align: center;
+    border: #950740 solid 2px;
+    justify-content: center;
+}
+body{
+    background-color: #1A1A1D;} */
