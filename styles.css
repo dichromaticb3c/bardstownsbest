@@ -4,12 +4,14 @@
 }
 
 body{
-    background-image: url(../bardstownsbest/imgs/clouds.jpg);
+ /*    background-image: url(../bardstownsbest/imgs/clouds.jpg);
     font-family: poppins;
     /* -webkit-background-size: cover; */
-    background-position: center center;
-    background-size:contain;
-    /* background-position: center center; */
+    background-position: center; 
+    background-size:auto;
+    background-repeat:no-repeat
+   
+    /* background-position: center center; */ 
     
 }
 
