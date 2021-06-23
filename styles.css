@@ -19,8 +19,21 @@ h1{
 font-weight: bold;
 text-align: center;
 background-color: white;
-
 }
+
+h2{
+    font-weight: bold;
+    
+    background-color: white;
+    }
+
+h3{
+        font-weight: bold;
+        text-align: center;
+        background-color: white;
+        }
+
+
 .nav ul{
 list-style: none;
 display: --webkit-flex;
@@ -55,6 +68,23 @@ display: flex;
 .nav ul li a:hover{
     color: #000;
     background: #fff;
+}
+
+ul{
+    display:flexbox;
+    text-align: center;
+    font-weight:Bold
+    
+}
+
+footer {
+    position:fixed;bottom:0;
+    text-align:center; 
+    width:100%;
+    display:block;
+}
+.WordSection1{
+    text-align:center
 }
 
 /* .main-nav{
